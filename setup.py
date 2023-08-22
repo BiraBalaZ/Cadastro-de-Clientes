@@ -6,8 +6,8 @@ lista = []
 # Randomizando os dados
 for i in range(100):
 
-    primeiro_nome = random.choice(['Erick', 'Sarah', 'Fernanda', 'Renata', 'Fabio', 'Sheila', 'Renato', 'Victória', 'Gabriele', 'Mariana', 'Beatriz', 'Priscila', 'Gustavo', 'Bruno', 'Fabiano'])
-    segundo_nome = random.choice(['Monteiro', 'Alcaide', 'Fernandes', 'dos Anjos', 'Martins', 'de Souza', 'Souza', 'de Sousa', 'Sousa', 'Reis', 'Salim', 'Mendonça', 'José', 'Viviani', 'dos Santos', 'Rodrigues'])
+    primeiro_nome = random.choice(['Erick', 'Sarah', 'Fernanda', 'Renata', 'Fabio', 'Sheila', 'Renato', 'Victória', 'Gabriele', 'Mariana', 'Beatriz', 'Priscila', 'Gustavo', 'Bruno', 'Fabiano', 'Murilo', 'Gabriel', 'Pedro', 'Fagner', 'Luiz', 'João', 'Kleber', 'Rebeca', 'Victor', 'Lívia', 'Carol', 'Ana', 'Anna', 'Júlia', 'Heitor', 'Paulo', 'Letícia'])
+    segundo_nome = random.choice(['Monteiro', 'Alcaide', 'Fernandes', 'dos Anjos', 'Martins', 'de Souza', 'Souza', 'de Sousa', 'Sousa', 'Reis', 'Salim', 'Mendonça', 'José', 'Viviani', 'dos Santos', 'Rodrigues', 'Henrique', 'Potter', 'Brás', 'Araújo', 'Emanoel', 'Carolina', 'Carolyna', 'Carvalho', 'Medeiros', 'Marin', 'Vieira', 'Falcão', 'Silva', 'da Silva'])
     nome = f'{primeiro_nome} {segundo_nome}'
     email = random.choice(['@gmail.com', '@outlook', '@hotmail.com', '@yahoo.com'])
 
