@@ -11,18 +11,13 @@ for i in range(100):
     nome = f'{primeiro_nome} {segundo_nome}'
     email = random.choice(['@gmail.com', '@outlook', '@hotmail.com', '@yahoo.com'])
 
-    four_digits = random.randrange(1000, 9999, 1)
-    three_digits = random.randrange(100, 999, 1)
-    two_digits = random.randrange(10, 99, 1)
-    one_digit = random.randrange(1, 9, 1)
-
     random_user = {
         'nome': f'{nome}', 
-        'contato': f'+55 (11) 9{four_digits}-{four_digits}',
+        'contato': f'+55 (11) 9{random.randrange(1000, 9999, 1)}-{random.randrange(1000, 9999, 1)}',
         'email': f'{primeiro_nome}.{segundo_nome.replace(" ", ".")}{email}'.lower(),
-        'endereco':f'R. blablabla N.{two_digits}', 
-        'rg': f'{two_digits}.{three_digits}.{three_digits}-{one_digit}', 
-        'cpf': f'{three_digits}.{three_digits}.{three_digits}/{two_digits}'
+        'endereco':f'R. blablabla N.{random.randrange(10, 99, 1)}', 
+        'rg': f'{random.randrange(10, 99, 1)}.{random.randrange(100, 999, 1)}.{random.randrange(100, 999, 1)}-{random.randrange(1, 9, 1)}', 
+        'cpf': f'{random.randrange(100, 999, 1)}.{random.randrange(100, 999, 1)}.{random.randrange(100, 999, 1)}/{random.randrange(10, 99, 1)}'
     }
 
     # Aplicando cada dicionário de nome à lista
