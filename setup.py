@@ -1,6 +1,6 @@
 import random
 
-#Criando a lista
+# Criando a lista
 lista = []
 
 # Randomizando os dados
