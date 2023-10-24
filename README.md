@@ -22,3 +22,13 @@
 
 4. **Editar Cadastro de Cliente**
     <br>Pesquisar algum dado de cliente para levar à ficha dele, e poderá editar seu cadastro ou excluir o usuário
+
+<br>
+
+# To Do List
+
+- [ ] Increment Classes;
+- [ ] Create another .py for the classes and functions;
+- [ ] Save Client List in a MySQL archive;
+- [ ] Turn the code and comments to English.
+
