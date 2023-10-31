@@ -28,15 +28,15 @@ for i in range(request_number):
 # Defining client_list lenght
 client_list_len = len(client_list)
 
-# Printing the Client Data in a tabble
+# Printing the Client Data in a table
 for i in range(client_list_len):
     middle_line()
-    print(f'|{client_list[i]["name"] :<20}|', end=' ')
+    print(f'|{client_list[i]["name"] :^20}|', end=' ')
     print(f'{client_list[i]["contact"]} |', end=' ')
-    print(f'{client_list[i]["email"] :<32}|', end=' ')
+    print(f'{client_list[i]["email"] :^32}|', end=' ')
     print(f'{client_list[i]["address"]} |', end=' ')
     print(f'{client_list[i]["rg"]} |', end=' ')
-    print(f'{client_list[i]["cpf"]}|')
+    print(f'{client_list[i]["cpf"]} |')
 
-# End of code
+# Final middle
 middle_line()
