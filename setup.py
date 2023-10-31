@@ -3,7 +3,7 @@ from functions import middle_line
 import fake_data as fake
 
 # Requesting the number of Data
-request_number = int(input('>>> '))
+request_number = 100 #int(input('>>> '))
 
 # Creating client_list
 client_list = []
@@ -31,12 +31,12 @@ client_list_len = len(client_list)
 # Printing the Client Data in a tabble
 for i in range(client_list_len):
     middle_line()
-    print(f'Name: {client_list[i]["name"] :<20}|', end=' ')
-    print(f'Contact: {client_list[i]["contact"]} |', end=' ')
-    print(f'E-Mail: {client_list[i]["email"] :<32}|', end=' ')
-    print(f'Address: {client_list[i]["address"]} |', end=' ')
-    print(f'RG: {client_list[i]["rg"]} |', end=' ')
-    print(f'CPF: {client_list[i]["cpf"]}')
+    print(f'{client_list[i]["name"] :<20}|', end=' ')
+    print(f'{client_list[i]["contact"]} |', end=' ')
+    print(f'{client_list[i]["email"] :<32}|', end=' ')
+    print(f'{client_list[i]["address"]} |', end=' ')
+    print(f'{client_list[i]["rg"]} |', end=' ')
+    print(f'{client_list[i]["cpf"]}')
 
 # End of code
 middle_line()
