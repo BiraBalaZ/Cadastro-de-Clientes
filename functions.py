@@ -1,4 +1,5 @@
 def middle_line():
+    print('+', end='')
     print('-'*20, end='')
     print('+', end='')
     print('-'*21, end='')
@@ -9,4 +10,5 @@ def middle_line():
     print('+', end='')
     print('-'*14, end='')
     print('+', end='')
-    print('-'*16)
+    print('-'*15, end='')
+    print('+')
