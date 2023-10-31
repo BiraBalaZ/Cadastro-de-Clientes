@@ -15,10 +15,10 @@
     <br>Irá levar à página com a tabela, mostrando todos os usuários
 
     ### **Lista de Clientes (Formato Tabela)**
-    | Nome  | Telefone          | E-Mail                  | Endereço     | RG            | CPF            | Ordens de Serviço | Código de Usuário |
-    |-------|-------------------|-------------------------|--------------|---------------|----------------|-------------------|-------------------|
-    | Erick | +55 11 9xxxx-xxxx | erickxxxxxxxx@gmail.com | R. Blablabla | xx.xxx.xxx/x  | xxx.xxx.xxx-xx | #0001             | A-000001          |
-    | Fabio | +55 11 9xxxx-xxxx | fabioxxxxxx@gmail.com   | R. Blablabla | xx.xxx.xxx/x  | xxx.xxx.xxx-xx | #0002 - #0003     | A-000002          |
+    | Nome  | Telefone          | E-Mail                  | Endereço     | RG            | CPF            | Código de Usuário |
+    |-------|-------------------|-------------------------|--------------|---------------|----------------|-------------------|
+    | Erick | +55 11 9xxxx-xxxx | erickxxxxxxxx@gmail.com | R. Blablabla | xx.xxx.xxx/x  | xxx.xxx.xxx-xx | A-000001          |
+    | Fabio | +55 11 9xxxx-xxxx | fabioxxxxxx@gmail.com   | R. Blablabla | xx.xxx.xxx/x  | xxx.xxx.xxx-xx | A-000002          |
 
 4. **Editar Cadastro de Cliente**
     <br>Pesquisar algum dado de cliente para levar à ficha dele, e poderá editar seu cadastro ou excluir o usuário
