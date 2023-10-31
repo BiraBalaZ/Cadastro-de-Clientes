@@ -1,0 +1,12 @@
+def middle_line():
+    print('-'*26, end='')
+    print('+', end='')
+    print('-'*30, end='')
+    print('+', end='')
+    print('-'*41, end='')
+    print('+', end='')
+    print('-'*28, end='')
+    print('+', end='')
+    print('-'*18, end='')
+    print('+', end='')
+    print('-'*20)
