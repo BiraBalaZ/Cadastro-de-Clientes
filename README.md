@@ -6,7 +6,7 @@
 <br>1.4. Endereço
 <br>1.5. RG
 <br>1.6. CPF
-<br>1.7. Ordens de Serviço
+<br><S>1.7. Ordens de Serviço</S>
 <br>1.8. Código de Usuário
 
     #### OBS: Código do usuário gerado "aleatoriamente" após o cadastro
@@ -27,8 +27,7 @@
 
 # To Do List
 
-- [ ] Increment Classes;
-- [ ] Create another .py for the classes and functions;
+<S>- [ ] Increment Classes;</S>
+- [X] Create another .py for the classes and functions;
 - [ ] Save Client List in a MySQL archive;
-- [ ] Turn the code and comments to English.
-
+- [X] Turn the code and comments to English.

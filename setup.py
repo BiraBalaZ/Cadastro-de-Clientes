@@ -12,7 +12,6 @@ client_list = []
 for i in range(request_number):
     name = f'{random.choice(fake.first_name)} {random.choice(fake.second_name)}'
 
-    # Dictionary
     client_dict = {
         'name': name,
         'contact': f'+55 (11) 9{random.randrange(1000, 9999, 1)}-{random.randrange(1000, 9999, 1)}',
@@ -21,7 +20,7 @@ for i in range(request_number):
         'rg': f'{random.randrange(10, 99, 1)}.{random.randrange(100, 999, 1)}.{random.randrange(100, 999, 1)}-{random.randrange(1, 9, 1)}', 
         'cpf': f'{random.randrange(100, 999, 1)}.{random.randrange(100, 999, 1)}.{random.randrange(100, 999, 1)}/{random.randrange(10, 99, 1)}'
     }
- 
+
     # Adding every dictionary at the client_list
     client_list.append(client_dict)
 
@@ -38,5 +37,5 @@ for i in range(client_list_len):
     print(f'{client_list[i]["rg"]} |', end=' ')
     print(f'{client_list[i]["cpf"]} |')
 
-# Final middle
+# Final middle line
 middle_line()
