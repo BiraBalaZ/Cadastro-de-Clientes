@@ -3,23 +3,31 @@ from functions import middle_line
 import fake_data as fake
 from time import sleep
 from tqdm import tqdm
+from os import system
 
-print('Loading Data')
+# Cleaning Terminal
+system('cls')
 
-for i in tqdm(range(100)):
+# Requesting the number of Data
+request_number = int(input('Number of lines\n>>> '))
+
+# Cleaning Terminal
+system('cls')
+
+# Loading Bar
+print(f'Loading {request_number} Lines')
+for i in tqdm(range(request_number)):
     if (i < 6):
         sleep(.5)
     elif (i >= 6 and i <= 85):
         sleep(.1)
     elif (i > 85 and i <= 90):
         sleep(.75)
-    elif (i > 90):
+    elif (i > 90 and i <= 100):
         sleep(.2)
-        
+    else:
+        sleep(.05)
 sleep(1)
-
-# Requesting the number of Data
-request_number = 100 #int(input('>>> '))
 
 # Creating client_list
 client_list = []
