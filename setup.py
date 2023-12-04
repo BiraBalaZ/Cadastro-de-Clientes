@@ -4,6 +4,7 @@ import fake_data as fake
 from time import sleep
 from tqdm import tqdm
 from os import system
+from colors import color_ini, color_end, c_blue
 
 # Cleaning Terminal
 system('cls')
@@ -15,7 +16,8 @@ request_number = int(input('Number of lines\n>>> '))
 system('cls')
 
 # Loading Bar
-print(f'Loading {request_number} Lines')
+print(f'Loading {request_number} Lines', end='')
+color_ini(c_blue)
 for i in tqdm(range(request_number)):
     if (i < 6):
         sleep(.5)
@@ -25,10 +27,12 @@ for i in tqdm(range(request_number)):
         sleep(.75)
     elif (i > 90 and i <= 100):
         sleep(.2)
-    else:
+    elif (i > 100 and i < 500):
         sleep(.05)
+    elif (i >= 500):
+        sleep(.01)
 sleep(1)
-
+color_end()
 # Creating client_list
 client_list = []
 
@@ -61,5 +65,5 @@ for i in range(client_list_len):
     print(f'{client_list[i]["rg"]} |', end=' ')
     print(f'{client_list[i]["cpf"]} |')
 
-# Final middle line
+# Final (middle) line
 middle_line()
