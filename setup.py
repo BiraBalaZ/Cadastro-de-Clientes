@@ -1,6 +1,22 @@
 import random
 from functions import middle_line
 import fake_data as fake
+from time import sleep
+from tqdm import tqdm
+
+print('Loading Data')
+
+for i in tqdm(range(100)):
+    if (i < 6):
+        sleep(.5)
+    elif (i >= 6 and i <= 85):
+        sleep(.1)
+    elif (i > 85 and i <= 90):
+        sleep(.75)
+    elif (i > 90):
+        sleep(.2)
+        
+sleep(1)
 
 # Requesting the number of Data
 request_number = 100 #int(input('>>> '))
