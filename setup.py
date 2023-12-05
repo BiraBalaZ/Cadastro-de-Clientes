@@ -19,18 +19,16 @@ system('cls')
 print(f'Loading {request_number} Lines', end='')
 color_ini(c_blue)
 for i in tqdm(range(request_number)):
-    if (i < 6):
-        sleep(.5)
-    elif (i >= 6 and i <= 85):
+    if (i <= request_number * .1):
+        sleep(.65)
+    elif (i > request_number * .1 and i <= request_number * .25):
+        sleep(.25)
+    elif (i > request_number * .25 and i <= request_number * .5):
         sleep(.1)
-    elif (i > 85 and i <= 90):
-        sleep(.75)
-    elif (i > 90 and i <= 100):
-        sleep(.2)
-    elif (i > 100 and i < 500):
-        sleep(.05)
-    elif (i >= 500):
-        sleep(.01)
+    elif (i > request_number * .5 and i <= request_number * .75):
+        sleep(.4)
+    elif (i > request_number * .75 and i <= request_number):
+        sleep(.1)
 sleep(1)
 color_end()
 # Creating client_list
